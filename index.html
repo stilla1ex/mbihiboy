@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official portfolio of Mbihi Boy - Innovative music artist blending electronic, hip-hop, and ambient sounds">
+    <title>Mbihi Boy | Cyberpunk Music Artist</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Grotesk:wght@300;400;500;700&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="cyber-theme">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="loading-text glitch" data-text="SYSTEM INITIALIZING">
+                <span>S</span>
+                <span>Y</span>
+                <span>S</span>
+                <span>T</span>
+                <span>E</span>
+                <span>M</span>
+                <span>&nbsp;</span>
+                <span>I</span>
+                <span>N</span>
+                <span>I</span>
+                <span>T</span>
+                <span>I</span>
+                <span>A</span>
+                <span>L</span>
+                <span>I</span>
+                <span>Z</span>
+                <span>I</span>
+                <span>N</span>
+                <span>G</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-percentage">0%</div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="theme-ball"></span>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-effect">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <img src="assets/images/album3.jpg" alt="Mbihi Boy Logo" class="logo-svg">
+                    <div class="logo-pulse"></div>
+                </div>
+                <span class="logo-text">MBIHI BOY</span>
+                <span class="logo-cursor">_</span>
+            </a>
+            
+            <div class="menu-toggle" id="mobile-menu" aria-label="Toggle menu">
+                <span class="menu-line top-line"></span>
+                <span class="menu-line middle-line"></span>
+                <span class="menu-line bottom-line"></span>
+            </div>
+            
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link active" data-text="HOME">HOME</a></li>
+                <li><a href="#about" class="nav-link" data-text="ABOUT">ABOUT</a></li>
+                <li><a href="#music" class="nav-link" data-text="MUSIC">MUSIC</a></li>
+                <li><a href="#gallery" class="nav-link" data-text="GALLERY">GALLERY</a></li>
+                <li><a href="#events" class="nav-link" data-text="EVENTS">EVENTS</a></li>
+                <li><a href="#contact" class="nav-link" data-text="CONTACT">CONTACT</a></li>
+                <li class="nav-social">
+                    <a href="#" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-grid">
+            <div class="grid-line vertical v1"></div>
+            <div class="grid-line vertical v2"></div>
+            <div class="grid-line vertical v3"></div>
+            <div class="grid-line horizontal h1"></div>
+            <div class="grid-line horizontal h2"></div>
+            <div class="grid-line horizontal h3"></div>
+        </div>
+        
+        <div class="hero-particles" id="particles-js"></div>
+        
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="300">
+                <h1 class="hero-title glitch" data-text="MBIHI BOY">MBIHI BOY</h1>
+                <p class="hero-subtitle typewriter" data-text="SOUND. VISION. EMOTION.">SOUND. VISION. EMOTION.</p>
+                <div class="hero-buttons">
+                    <a href="#music" class="btn btn-primary neon-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        LISTEN NOW
+                    </a>
+                    <a href="#events" class="btn btn-outline">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        TOUR DATES
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-down">
+            <div class="scroll-text">SCROLL</div>
+            <div class="scroll-line"></div>
+        </div>
+        
+        <div class="hero-news-ticker">
+            <div class="ticker-content">
+                <span>NEW ALBUM "DIGITAL DREAMS" OUT NOW • WORLD TOUR 2023 ANNOUNCED • NEW MUSIC VIDEO "NEON GHOSTS" RELEASED •</span>
+                <span>NEW ALBUM "DIGITAL DREAMS" OUT NOW • WORLD TOUR 2023 ANNOUNCED • NEW MUSIC VIDEO "NEON GHOSTS" RELEASED •</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">
+                    <span class="section-title-bg">ABOUT</span>
+                    <span class="section-title-fg">ABOUT</span>
+                </h2>
+                <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">THE ARTIST BEHIND THE SOUND</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="image-wrapper">
+                        <img src="assets/images/album3.jpg" alt="Mbihi Boy" class="hover-rotate">
+                        <div class="image-border"></div>
+                        <div class="image-glitch"></div>
+                    </div>
+                </div>
+                
+                <div class="about-text" data-aos="fade-left">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="terminal-btn close"></span>
+                                <span class="terminal-btn minimize"></span>
+                                <span class="terminal-btn maximize"></span>
+                            </div>
+                            <div class="terminal-title">artist_profile.exe</div>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="terminal-line"><span class="terminal-prompt">></span> Mbihi_Boy --description</p>
+                            <p class="terminal-output">> Mbihi Boy is an innovative music artist blending electronic, hip-hop, and ambient sounds to create a unique auditory experience.</p>
+                            
+                            <p class="terminal-line"><span class="terminal-prompt">></span> Mbihi_Boy --background</p>
+                            <p class="terminal-output">> With roots in underground music scenes, Mbihi Boy has developed a signature style that combines intricate production with raw emotional expression.</p>
+                            
+                            <p class="terminal-line"><span class="terminal-prompt">></span> Mbihi_Boy --inspiration</p>
+                            <p class="terminal-output">> Inspired by the digital age and cyber aesthetics, the music explores themes of technology, human connection, and personal transformation.</p>
+                            
+                            <div class="terminal-line"><span class="terminal-prompt">></span> <span class="terminal-cursor">_</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item" data-aos="flip-up" data-aos-delay="100">
+                            <div class="stat-number" data-count="150">0</div>
+                            <div class="stat-label">SHOWS</div>
+                            <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                        </div>
+                        <div class="stat-item" data-aos="flip-up" data-aos-delay="200">
+                            <div class="stat-number" data-count="12">0</div>
+                            <div class="stat-label">RELEASES</div>
+                            <div class="stat-icon"><i class="fas fa-compact-disc"></i></div>
+                        </div>
+                        <div class="stat-item" data-aos="flip-up" data-aos-delay="300">
+                            <div class="stat-number" data-count="5">0</div>
+                            <div class="stat-label">COLLABS</div>
+                            <div class="stat-icon"><i class="fas fa-users"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-section" data-aos="fade-up">
+                <h3 class="skills-title">SOUND SIGNATURE</h3>
+                <div class="skills-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">ELECTRONIC</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HIP-HOP</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">AMBIENT</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">EXPERIMENTAL</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section music">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">
+                    <span class="section-title-bg">MUSIC</span>
+                    <span class="section-title-fg">MUSIC</span>
+                </h2>
+                <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">LATEST RELEASES & DISCOGRAPHY</p>
+            </div>
+            
+            <div class="music-player" data-aos="fade-up">
+                <div class="player-cover">
+                    <img src="assets/images/album-covers/album1.jpg" alt="Current Track" id="current-cover" class="cover-image">
+                    <div class="vinyl">
+                        <div class="vinyl-inner">
+                            <div class="vinyl-hole"></div>
+                        </div>
+                    </div>
+                    <div class="cover-reflection"></div>
+                </div>
+                
+                <div class="player-controls">
+                    <div class="player-info">
+                        <h3 id="current-track">TRACK NAME</h3>
+                        <p id="current-album">ALBUM NAME</p>
+                    </div>
+                    
+                    <div class="progress-container">
+                        <div class="progress-bar" id="progress-bar">
+                            <div class="progress-fill" id="progress-fill"></div>
+                            <div class="progress-handle" id="progress-handle"></div>
+                        </div>
+                        <div class="time-info">
+                            <span id="current-time">0:00</span>
+                            <span id="duration">0:00</span>
+                        </div>
+                    </div>
+                    
+                    <div class="control-buttons">
+                        <button id="shuffle-btn" class="control-btn" aria-label="Shuffle">
+                            <i class="fas fa-random"></i>
+                        </button>
+                        <button id="prev-btn" class="control-btn" aria-label="Previous">
+                            <i class="fas fa-step-backward"></i>
+                        </button>
+                        <button id="play-btn" class="control-btn play-btn" aria-label="Play/Pause">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button id="next-btn" class="control-btn" aria-label="Next">
+                            <i class="fas fa-step-forward"></i>
+                        </button>
+                        <button id="repeat-btn" class="control-btn" aria-label="Repeat">
+                            <i class="fas fa-redo"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="volume-control">
+                        <button id="mute-btn" class="volume-btn" aria-label="Mute">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                        <div class="volume-bar" id="volume-bar">
+                            <div class="volume-level" id="volume-level"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="playlist">
+                    <div class="playlist-header">
+                        <h4>DISCOGRAPHY</h4>
+                        <div class="playlist-filter">
+                            <button class="filter-btn active" data-filter="all">ALL</button>
+                            <button class="filter-btn" data-filter="album">ALBUMS</button>
+                            <button class="filter-btn" data-filter="single">SINGLES</button>
+                        </div>
+                    </div>
+                    <ul id="track-list">
+                        <!-- Tracks will be loaded here via JS -->
+                        <li class="playlist-item" data-category="album" data-audio="assets/audio/track1.mp3" data-cover="assets/images/album-covers/album1.jpg">
+                            <div class="item-number">01</div>
+                            <div class="item-info">
+                                <div class="item-title">NEON DREAMS</div>
+                                <div class="item-album">DIGITAL DREAMS</div>
+                            </div>
+                            <div class="item-duration">3:45</div>
+                            <div class="item-play"><i class="fas fa-play"></i></div>
+                        </li>
+                        <li class="playlist-item" data-category="album" data-audio="assets/audio/track2.mp3" data-cover="assets/images/album-covers/album1.jpg">
+                            <div class="item-number">02</div>
+                            <div class="item-info">
+                                <div class="item-title">CYBER LOVE</div>
+                                <div class="item-album">DIGITAL DREAMS</div>
+                            </div>
+                            <div class="item-duration">4:12</div>
+                            <div class="item-play"><i class="fas fa-play"></i></div>
+                        </li>
+                        <li class="playlist-item" data-category="single" data-audio="assets/audio/track3.mp3" data-cover="assets/images/album-covers/single1.jpg">
+                            <div class="item-number">03</div>
+                            <div class="item-info">
+                                <div class="item-title">DATA GHOST</div>
+                                <div class="item-album">SINGLE</div>
+                            </div>
+                            <div class="item-duration">3:28</div>
+                            <div class="item-play"><i class="fas fa-play"></i></div>
+                        </li>
+                        <!-- More tracks would be added here -->
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="albums-grid" data-aos="fade-up">
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="assets/images/album-covers/album1.jpg" alt="Digital Dreams Album">
+                        <div class="album-overlay">
+                            <button class="album-play"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h4>DIGITAL DREAMS</h4>
+                        <p>2023 • ALBUM</p>
+                    </div>
+                </div>
+                
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="assets/images/album-covers/album2.jpg" alt="Neon Ghosts Album">
+                        <div class="album-overlay">
+                            <button class="album-play"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h4>NEON GHOSTS</h4>
+                        <p>2022 • ALBUM</p>
+                    </div>
+                </div>
+                
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="assets/images/album-covers/single1.jpg" alt="Data Ghost Single">
+                        <div class="album-overlay">
+                            <button class="album-play"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h4>DATA GHOST</h4>
+                        <p>2023 • SINGLE</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="streaming-links">
+                <h3>STREAM ON</h3>
+                <div class="streaming-platforms">
+                    <a href="#" class="streaming-btn spotify"><i class="fab fa-spotify"></i> SPOTIFY</a>
+                    <a href="#" class="streaming-btn apple"><i class="fab fa-apple"></i> APPLE MUSIC</a>
+                    <a href="#" class="streaming-btn soundcloud"><i class="fab fa-soundcloud"></i> SOUNDCLOUD</a>
+                    <a href="#" class="streaming-btn youtube"><i class="fab fa-youtube"></i> YOUTUBE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">
+                    <span class="section-title-bg">GALLERY</span>
+                    <span class="section-title-fg">GALLERY</span>
+                </h2>
+                <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">VISUAL EXPERIENCES</p>
+            </div>
+            
+            <div class="gallery-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">ALL</button>
+                <button class="filter-btn" data-filter="live">LIVE</button>
+                <button class="filter-btn" data-filter="studio">STUDIO</button>
+                <button class="filter-btn" data-filter="video">VIDEOS</button>
+                <button class="filter-btn" data-filter="behind">BEHIND SCENES</button>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-item" data-category="live" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/images/gallery/1.jpg" alt="Live Performance 2023">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">LIVE PERFORMANCE 2023</div>
+                        <div class="gallery-zoom"><i class="fas fa-expand"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="studio" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="assets/images/gallery/2.jpg" alt="Studio Session">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">STUDIO SESSION</div>
+                        <div class="gallery-zoom"><i class="fas fa-expand"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="video" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/images/gallery/3.jpg" alt="Music Video Shoot">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">MUSIC VIDEO SHOOT</div>
+                        <div class="gallery-zoom"><i class="fas fa-expand"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="live" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="assets/images/gallery/4.jpg" alt="Festival Appearance">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">FESTIVAL APPEARANCE</div>
+                        <div class="gallery-zoom"><i class="fas fa-expand"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="behind" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/images/gallery/5.jpg" alt="Behind the Scenes">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">BEHIND THE SCENES</div>
+                        <div class="gallery-zoom"><i class="fas fa-expand"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="video" data-aos="zoom-in" data-aos-delay="350">
+                    <img src="assets/images/gallery/6.jpg" alt="Album Artwork">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">ALBUM ARTWORK</div>
+                        <div class="gallery-zoom"><i class="fas fa-expand"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-container" data-aos="fade-up">
+                <div class="video-header">
+                    <h3>LATEST MUSIC VIDEO</h3>
+                    <div class="video-nav">
+                        <button class="video-nav-btn prev-video"><i class="fas fa-chevron-left"></i></button>
+                        <button class="video-nav-btn next-video"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+                <div class="video-playlist">
+                    <div class="video-thumb active">
+                        <img src="assets/images/video-thumbs/1.jpg" alt="Video Thumbnail">
+                        <div class="video-title">NEON DREAMS (OFFICIAL VIDEO)</div>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="assets/images/video-thumbs/2.jpg" alt="Video Thumbnail">
+                        <div class="video-title">CYBER LOVE (LIVE SESSION)</div>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="assets/images/video-thumbs/3.jpg" alt="Video Thumbnail">
+                        <div class="video-title">DATA GHOST (VISUALIZER)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Lightbox Modal -->
+        <div class="lightbox">
+            <div class="lightbox-content">
+                <img src="" alt="Lightbox Image" class="lightbox-image">
+                <div class="lightbox-caption"></div>
+                <button class="lightbox-close"><i class="fas fa-times"></i></button>
+                <button class="lightbox-nav prev-img"><i class="fas fa-chevron-left"></i></button>
+                <button class="lightbox-nav next-img"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">
+                    <span class="section-title-bg">EVENTS</span>
+                    <span class="section-title-fg">EVENTS</span>
+                </h2>
+                <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">UPCOMING TOUR DATES</p>
+            </div>
+            
+            <div class="events-tabs" data-aos="fade-up">
+                <button class="tab-btn active" data-tab="upcoming">UPCOMING</button>
+                <button class="tab-btn" data-tab="past">PAST EVENTS</button>
+            </div>
+            
+            <div class="events-timeline active" data-tab-content="upcoming" data-aos="fade-up">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-day">15</span>
+                        <span class="date-month">JUN</span>
+                        <span class="date-year">2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="event-tag">HEADLINE SHOW</div>
+                        <h3>NEON DREAMS FESTIVAL</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> CYBER CITY ARENA, DIGITAL DISTRICT</p>
+                        <p class="event-description">Headlining performance with full visual production and special guests. Experience the complete Digital Dreams album live with immersive visuals.</p>
+                        <div class="event-meta">
+                            <span class="event-time"><i class="far fa-clock"></i> 8:00 PM</span>
+                            <span class="event-price"><i class="fas fa-tag"></i> FROM $35</span>
+                        </div>
+                        <a href="#" class="btn btn-small">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            GET TICKETS
+                        </a>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/images/events/event1.jpg" alt="Neon Dreams Festival">
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-day">28</span>
+                        <span class="date-month">JUL</span>
+                        <span class="date-year">2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="event-tag">RESIDENCY</div>
+                        <h3>BYTE CLUB RESIDENCY</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> THE BINARY LOUNGE, TECH PLAZA</p>
+                        <p class="event-description">Intimate club performance featuring unreleased material. Exclusive 3-night residency with different set each night.</p>
+                        <div class="event-meta">
+                            <span class="event-time"><i class="far fa-clock"></i> 10:00 PM</span>
+                            <span class="event-price"><i class="fas fa-tag"></i> FROM $25</span>
+                        </div>
+                        <a href="#" class="btn btn-small">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            GET TICKETS
+                        </a>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/images/events/event2.jpg" alt="Byte Club Residency">
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-day">12</span>
+                        <span class="date-month">AUG</span>
+                        <span class="date-year">2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="event-tag">TOUR</div>
+                        <h3>ALGORITHM TOUR</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> DATA DOME, SILICON VALLEY</p>
+                        <p class="event-description">Multi-sensory experience combining music, VR, and interactive art. Part of the worldwide Algorithm Tour.</p>
+                        <div class="event-meta">
+                            <span class="event-time"><i class="far fa-clock"></i> 7:30 PM</span>
+                            <span class="event-price"><i class="fas fa-tag"></i> FROM $45</span>
+                        </div>
+                        <a href="#" class="btn btn-small">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            GET TICKETS
+                        </a>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="assets/images/events/event3.jpg" alt="Algorithm Tour">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="events-timeline" data-tab-content="past" data-aos="fade-up">
+                <!-- Past events would be listed here -->
+                <div class="past-events-message">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>PAST EVENTS ARCHIVE</h3>
+                    <p>Relive previous performances through our gallery and video sections.</p>
+                    <a href="#gallery" class="btn btn-outline">VIEW GALLERY</a>
+                </div>
+            </div>
+            
+            <div class="events-map" data-aos="fade-up">
+                <h3>TOUR MAP</h3>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-pin" style="top: 30%; left: 20%;" data-city="Neon Dreams Festival">
+                            <div class="pin-pulse"></div>
+                            <div class="pin-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        </div>
+                        <div class="map-pin" style="top: 45%; left: 50%;" data-city="Byte Club Residency">
+                            <div class="pin-pulse"></div>
+                            <div class="pin-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        </div>
+                        <div class="map-pin" style="top: 60%; left: 80%;" data-city="Algorithm Tour">
+                            <div class="pin-pulse"></div>
+                            <div class="pin-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        </div>
+                        <img src="assets/images/world-map.svg" alt="World Map" class="map-image">
+                    </div>
+                    <div class="map-legend">
+                        <div class="legend-item">
+                            <div class="legend-marker upcoming"></div>
+                            <span>UPCOMING</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-marker past"></div>
+                            <span>PAST</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">
+                    <span class="section-title-bg">CONTACT</span>
+                    <span class="section-title-fg">CONTACT</span>
+                </h2>
+                <div class="section-divider" data-aos="fade-up" data-aos-delay="100"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">GET IN TOUCH</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="info-content">
+                            <h4>EMAIL</h4>
+                            <p>contact@mbihiboy.com</p>
+                            <a href="mailto:contact@mbihiboy.com" class="info-link">SEND MESSAGE <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                        </div>
+                        <div class="info-content">
+                            <h4>MANAGEMENT</h4>
+                            <p>+1 (555) 123-4567</p>
+                            <a href="tel:+15551234567" class="info-link">CALL NOW <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </div>
+                        <div class="info-content">
+                            <h4>BASED IN</h4>
+                            <p>Neon District, Digital City</p>
+                            <a href="#" class="info-link">GET DIRECTIONS <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>CONNECT</h4>
+                        <div class="social-grid">
+                            <a href="#" class="social-link" aria-label="Spotify">
+                                <div class="social-icon">
+                                    <i class="fab fa-spotify"></i>
+                                </div>
+                                <span>SPOTIFY</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <div class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <span>INSTAGRAM</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <div class="social-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <span>YOUTUBE</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="SoundCloud">
+                                <div class="social-icon">
+                                    <i class="fab fa-soundcloud"></i>
+                                </div>
+                                <span>SOUNDCLOUD</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <div class="social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <span>TWITTER</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Apple Music">
+                                <div class="social-icon">
+                                    <i class="fab fa-apple"></i>
+                                </div>
+                                <span>APPLE MUSIC</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm" action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">YOUR NAME</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">YOUR EMAIL</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected></option>
+                                <option value="booking">BOOKING INQUIRY</option>
+                                <option value="collab">COLLABORATION</option>
+                                <option value="press">PRESS INQUIRY</option>
+                                <option value="other">OTHER</option>
+                            </select>
+                            <label for="subject">SUBJECT</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">YOUR MESSAGE</label>
+                            <div class="form-underline"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary neon-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SEND MESSAGE
+                        </button>
+                    </form>
+                    
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>MESSAGE SENT!</h3>
+                        <p>Thank you for reaching out. We'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content" data-aos="fade-up">
+                <div class="newsletter-text">
+                    <h3>JOIN THE <span>DIGITAL DREAM</span></h3>
+                    <p>Subscribe to get exclusive updates, early access to tickets, and behind-the-scenes content.</p>
+                </div>
+                <form id="newsletterForm" class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="YOUR EMAIL" required>
+                        <button type="submit" class="btn btn-outline">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <img src="assets/images/logo.svg" alt="Mbihi Boy Logo" class="logo-svg">
+                        <div class="logo-pulse"></div>
+                    </div>
+                    <span class="logo-text">MBIHI BOY</span>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="links-column">
+                        <h4>NAVIGATION</h4>
+                        <ul>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#music">MUSIC</a></li>
+                            <li><a href="#gallery">GALLERY</a></li>
+                            <li><a href="#events">EVENTS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>LEGAL</h4>
+                        <ul>
+                            <li><a href="#">PRIVACY POLICY</a></li>
+                            <li><a href="#">TERMS OF SERVICE</a></li>
+                            <li><a href="#">COOKIE POLICY</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="links-column">
+                        <h4>RESOURCES</h4>
+                        <ul>
+                            <li><a href="#">PRESS KIT</a></li>
+                            <li><a href="#">LYRICS</a></li>
+                            <li><a href="#">MERCH</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2023</span> MBIHI BOY. ALL RIGHTS RESERVED.</p>
+                <div class="footer-credits">
+                    <span>DESIGNED WITH <i class="fas fa-heart"></i> BY MBIHI BOY</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Audio Element -->
+    <audio id="audio-player"></audio>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/music-player.js"></script>
+    <script src="assets/js/form-validation.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/preloader.js"></script>
+    
+    <script>
+        // Initialize AOS animation library
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: false
+        });
+        
+        // Initialize particles.js if needed
+        if (document.getElementById('particles-js')) {
+            particlesJS.load('particles-js', 'assets/js/particles-config.json', function() {
+                console.log('Particles.js loaded');
+            });
+        }
+    </script>
+</body>
+</html>
